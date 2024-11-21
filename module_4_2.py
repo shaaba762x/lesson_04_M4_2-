@@ -1,19 +1,12 @@
 b = 800
-# a = 2
-# c = 12
 def test_function(a):
-    c = 4 + a
     def inner_function(b):
-        b = c * a
+        # b = 1
         print(b)
         return b
-
-    inner_function(5)
+    c = inner_function(b)
+    inner_function(2)
+    print(c)
     print(b)
-    return c
-
 test_function(3)
-print(test_function(6))
-# print(inner_function(2))
-# print(c)
-# print(a)
+inner_function(9000)
