@@ -9,4 +9,4 @@ def test_function(a):
     print(c)
     print(b)
 test_function(3)
-inner_function(9000)
+inner_function(9000) # специальная ошбика для выполнения пункта 4 в задании
